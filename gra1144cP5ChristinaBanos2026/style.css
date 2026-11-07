@@ -1,15 +1,77 @@
+header   {
+    height: 198px;
+    min-height: 0px;
+}
+body{
+	background-color:black;
+}
 main{
     background-size: auto;
     margin: 0px 0px 0px 0px;
-    background-image: url(greenperf.jpg);
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
     height: 1024px;
+    background-image: url(https://www.theupcoming.co.uk/wp-content/uploads/2025/09/Lord-Huron-at-Eventim-Apollo-The-Upcoming-Virginie-Viche-4.jpg);
+}
+.bahiana-regular {
+  font-family: "Bahiana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.trade-winds-regular {
+  font-family: "Trade Winds", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+h1{
+    margin: 0px;
+    color: rgba(252,229,203,1.00);
+    font-family: "Bahiana", sans-serif;
+    font-size: 190px;
+    font-weight: 400;
+    background-image: url(lordhuronlogo.png);
+    background-size: 779px auto;
+    background-repeat: no-repeat;
 }
 h2 {
     padding: 20px;
     margin: 0px;
     color: rgba(252,229,203,1.00);
+    font-family: "Bahiana", sans-serif;
+    font-size: 45px;
+}
+h3 {
+    color: rgba(253,66,24,1.00);
+    background-color: rgba(0,0,0,0.70);
+    font-size: 99px;
+    padding: 0px 0px 0px 0px;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    text-align: justify;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    line-height: 84px;
+}
+h4 {
+    color: rgba(250,170,0,1.00);
+    font-size: 30px;
+    padding-top: 0px;
+    padding-left: 0px;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    line-height: 0px;
+}
+h5 {
+    font-size: 35px;
+    color: rgba(254,232,208,1.00);
+}
+p1{
+    font-size: 35px;
+    color: rgba(254,232,208,1.00);
+	background-color: rgba(0,0,0,0.70);
+}
+p {
+    color: rgba(254,232,208,1.00);
 }
 wrapper {
     width: 1366px;
@@ -23,48 +85,80 @@ nav {
 }
 ul {
     padding: 0;
-    margin:auto;
+    margin: auto;
+    background-size: 0px auto;
 }
 ul a li {
     font-size: 16px;
     font-weight: normal;
     font-style: normal;
     display: inline-block;
-    padding: 10px 25px;
-    color: rgba(242,60,35,1.00);
+    padding: 10px;
+	color:rgba(242,60,33,1.00);
     align-content: center;
     text-align: center;
+    font-family: "Trade Winds", system-ui;
 }
 ul a li:hover {
-    filter:drop-shadow(0px 0px 6px lightskyblue)
-	drop-shadow(0px 0px 10px mediumslateblue)
-	drop-shadow(0px 0px 50px deepskyblue);
-}
-header   {
-    background-image: url(lordhuronbkg.png);
-    background-size: 1006px auto;
-    background-repeat: no-repeat;
-    background-position: center 9%;
-    height: 198px;
-    min-height: 0px;
-    align-content: center;
-    background-color: rgba(249,225,198,1.00);
+    filter: drop-shadow(0px 0px 6px orangered)
+	drop-shadow(0px 0px 10px darkorange)
+	drop-shadow(0px 0px 50px red);
+    font-style: italic;
+    color: rgba(250,169,0,1.00);
 }
 #news {
+    background-image: url(redrocks%20perf.jpg);
 }
 #store {
+    background-image: url(blankblack.png);
+}
+.shopitems{
+	display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center;     /* centers vertically if needed */
+    width: 100%;
 }
 #videos {
+    background-image: url(videosbkg.jpeg);
+
 }
 #tour {
+    background-size: 1512px 1476px;
+    background-repeat: no-repeat;
+    background-image: url(../../Pictures/Screenshots/Screenshot%202026-11-06%20202445.png);
+}
+.dates{
+	display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center;     /* centers vertically if needed */
+    width: 100%;
 }
 #gallery {
 }
 #email {
+    background-image: url(blankblack.png);
+}
+.email{
+    justify-content: center; /* centers horizontally */
+    align-items: center;     /* centers vertically if needed */
+    width: 100%;
 }
 #merch {
+    background-image: url(merch.jpg);
+}
+.postercontainer{
+
+    justify-content: center; /* centers horizontally */
+    align-items: center;     /* centers vertically if needed */
+    width: 100%;
 }
 #blog {
+    background-image: url(blog_bkg.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 #privacy {
+    background-image: url(privacypolicy_LH.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
