@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Travelocity Dupe | Christina Banos, 2026 </title>
+<style type="text/css">
+body{
+    margin: 0;
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+    background-image: url(Dublin-Ireland.png);
+}	
+header {
+    height: 72px;
+    background-color: #0A438B;
+}
+.logo {
+    width: auto;
+	height: 40px;
+    margin-top: 10px;
+}
+wrapper {
+    width: 1366px;
+    margin: auto;
+    display: block;
+	height: 700px;
+    background-color: rgba(255,255,255,0.50);
+}
+#Tabs1 ul {
+    background-image: none;
+    background-color: transparent;
+    border: none;
+}
+#Tabs1 {
+    background-color: transparent;
+    background-image: none;
+}
+#tabs-1 ,#tabs-2,#tabs3,#tabs4,#tabs5{
+    background-color: rgba(255,255,255,0.50);
+}
+.leaving {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.leavingdate {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.headed {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.headeddate {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.numberof {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.search {
+    background-color: rgba(0,76,152,1.00);
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+#tabs-1 p input  , #tabs-3 p select{
+}
+#tabs-1 p select, #tabs-3 p select {
+}
+</style>
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+</head>
+
+<body>
+<header></header>
+<wrapper>
+  <div id="Tabs1">
+    <ul>
+      <li><a href="#tabs-1">Hotels</a></li>
+      <li><a href="#tabs-2">Flights</a></li>
+      <li><a href="#tabs-3">Cars</a></li>
+      <li><a href="#tabs-4">Activities</a></li>
+      <li><a href="#tabs-5">Cruises</a></li>
+    </ul>
+    <div id="tabs-1">
+      <p><input type="text" class="leaving" placeholder="Leaving From"><input type="date" class="leavingdate"><input type="text" class="headed" placeholder="Headed To"><input type="date" class="headeddate">
+	<select class="numberof">
+	  <option value="0">Number of Travelers</option>
+	  <option value="1">1</option>
+	  <option value="2">2</option>
+	  <option value="3">3</option>
+	  <option value="4">4</option>
+	  <option value="5">5</option>
+	  <option value="6">6</option>
+	  <option value="7">7</option>
+	  <option value="8">8</option>
+	  <option value="9">9</option>
+	  <option value="10">10</option>
+	</select><input type="submit" class="search" value="Search">
+	</p>
+    </div>
+    <div id="tabs-2">
+      <p>Content 2</p>
+    </div>
+    <div id="tabs-3">
+      <p><input type="text" placeholder="Pickup"><input type="date"><input type="time"><input type="text" placeholder="Return"><input type="date"><input type="time"></p>
+    </div>
+    <div id="tabs-4">
+      <p>Content 4</p>
+    </div>
+    <div id="tabs-5">
+      <p>Content 5</p>
+    </div>
+  </div>
+</wrapper>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+</script>
+</body>
+</html>
+                      
